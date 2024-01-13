@@ -7,10 +7,10 @@ import { UserComponent } from './user/user.component';
   selector: 'app-root',
   standalone: true,
   imports: [CommonModule, RouterOutlet, UserComponent],
-  template: `<h1>Hola {{ title }}</h1> 
-    <app-user />`,
+  // template: `<h1>Hola {{ title }}</h1> 
+  //   <app-user />`,
   styles: ``, 
-  // templateUrl: './app.component.html',
+  templateUrl: './app.component.html',
   // styleUrl: './app.component.css'
 })
 export class AppComponent {
