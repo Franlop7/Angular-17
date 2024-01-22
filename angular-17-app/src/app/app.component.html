@@ -1,4 +1,52 @@
 <!-- <h1>Hola {{ title }}</h1>  -->
-<app-user />
+<!-- <app-user /> -->
 
 <!-- <router-outlet></router-outlet> -->
+
+<div>
+  <h1>¿Qué me parece Angular?</h1>
+  <article>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas possimus
+      voluptatum distinctio. Totam itaque cumque id delectus beatae ratione at
+      earum accusantium maxime, iste mollitia impedit quaerat reprehenderit
+      repellendus hic.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto eligendi
+      perspiciatis dolorem mollitia doloribus nulla quisquam sed quaerat,
+      necessitatibus maiores cum, a alias velit explicabo accusamus eveniet
+      deleniti perferendis doloremque.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt odit
+      eligendi quos fugiat? Accusamus, error rerum voluptates fuga alias tempora
+      sed at asperiores nemo est deleniti inventore doloremque quo tempore.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quisquam eos
+      officiis possimus sapiente tenetur accusantium officia porro perferendis
+      explicabo, repellat dignissimos, laborum aut corrupti alias saepe amet
+      magni at.
+    </p>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque fugit est
+      ducimus amet nulla libero eveniet esse ex doloribus, sapiente sequi
+      placeat enim quod quia. Placeat sit aut et cupiditate?
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. At eius, unde
+      consequuntur illum similique provident in neque aliquam asperiores dolorem
+      architecto corrupti nemo ex. Ipsa alias perspiciatis distinctio cupiditate
+      est!
+    </p>
+  </article>
+
+  @defer (on viewport) {
+  <app-comments></app-comments>
+  } @placeholder {
+  <p>.</p>
+  } @loading {
+  <p>Cargando comentarios ...</p>
+  }
+</div>
